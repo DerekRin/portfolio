@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Start */
+header {
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #191919;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+}
+
+header h2 {
+  font-weight: bold;
+}
+
+header a {
+  text-decoration: wavy;
+  color: white;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+}
+
+header nav ul li a:hover {
+  border-radius: 15px;
+  text-shadow: none;
+}
+/* Header End */
+
+/* Footer Start */
+footer {
+  background-color: #191919;
+}
+footer h4 {
+  color: #191919;
+  padding-bottom: 70px;
+  align-items: right;
+}
+/* Footer End */
+
+/* About Me Start */
+.about-me {
+  align-items: center;
+  text-align: center;
+}
+
+.personal {
+  background-color: #adc6f8;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.personal section-title {
+  font-size: 48px;
+  border-bottom: 3px solid;
+  border-color: #191919;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.personal h2 {
+  font-size: 24px;
+  align-items: center;
+  border-bottom: solid;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.personal img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  margin: auto;
+  float: left;
+  align-content: space-between;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 25px;
+  border: 10px solid #191919;
+}
+
+.personal h3 {
+  font-size: 18px;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+}
+/* About Me End */
+
+/* Works Start */
+
+.works {
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.projects {
+  background-color: #d4fec5;
+}
+
+.projects h2 {
+  font-size: 24px;
+  align-items: center;
+  border-bottom: solid;
+  border-color: #191919;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.run-buddy {
+  border-radius: 50px;
+  border: 10px solid #191919;
+  background-image: url(../Images/hero-bg\ copy.jpeg);
+  background-repeat: round;
+  position: center;
+  font-family: arial;
+  padding: 40px;
+  width: 600px;
+  height: 310px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.run-buddy h3,
+p {
+  margin: auto;
+}
+
+.wyvern {
+  border-radius: 50px;
+  border: 10px solid #191919;
+  background-image: url(../Images/dark-red-rust-oleum-general-purpose-spray-paint-352115-76_600.png);
+  background-repeat: round;
+  position: right;
+  font-family: arial;
+  padding: 40px;
+  width: 150px;
+  height: 150px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.wyvern h3,
+p {
+  margin: auto;
+  color: white;
+}
+
+.first {
+  border-radius: 50px;
+  border: 10px solid #191919;
+  background-image: url(../Images/indigo-web-color.jpg);
+  background-repeat: space;
+  position: right bottom;
+  font-family: arial;
+  color: white;
+  padding: 40px;
+  width: 150px;
+  height: 150px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.first h3 {
+  margin: auto;
+}
+
+.run-buddy,
+.first {
+  float: left;
+  width: 50%;
+  margin-right: auto;
+}
+
+.wyvern {
+  margin-left: auto;
+  float: right;
+  width: 50%;
+}
+
+/* Works End */
+
+/* Contact Me Start */
+.info {
+  background-color: #d4fec5;
+}
+
+.info h2 {
+  font-size: 24px;
+  align-items: center;
+  border-bottom: solid;
+  border-color: #191919;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.info h3 {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  justify-content: space-between;
+  text-decoration: underline;
+  padding: 10px 15px;
+  letter-spacing: 2px;
+}
+/* Contact Me End */
+
+/* Different Screen Sizes */
+@media screen and (max-width: 768px) {
+  .about-me {
+    padding: 30px 15px;
+  }
+  .section-title h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+}
