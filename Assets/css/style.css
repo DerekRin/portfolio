@@ -151,7 +151,7 @@ footer h4 {
 .run-buddy {
   border-radius: 50px;
   border: 10px solid #191919;
-  background-image: url(../Images/hero-bg\ copy.jpeg);
+  background-image: url(../Images/food.jpg);
   background-repeat: round;
   position: center;
   font-family: arial;
@@ -167,6 +167,7 @@ footer h4 {
 .run-buddy h3,
 p {
   margin: auto;
+  color: white;
 }
 
 .wyvern {
